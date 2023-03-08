@@ -1,9 +1,9 @@
 # Copyright (c) Meta Platforms, Inc. and affiliates.
 # This software may be used and distributed according to the terms of the GNU General Public License version 3.
 
-PRESIGNED_URL=""             # replace with presigned url from email
+PRESIGNED_URL="https://dobf1k6cxlizq.cloudfront.net/*?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9kb2JmMWs2Y3hsaXpxLmNsb3VkZnJvbnQubmV0LyoiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkFXUzpFcG9jaFRpbWUiOjE2NzgzNzAzNzR9fX1dfQ__&Signature=U~QwYCuvk3aDiUWh8n4WjU~ha4dbuJRPsCsC~4jmVjikKKBADxwg5kHBFLLGjnP7jmoJnO9kEHgo5OLDrSBx9l7CauY7qYoIEgar0oR7N~vAPmglIOMCms-F3onBD75bkpXdzbcC7bSuXvwylmWh7cx75Gtbxayl~RgsQFKEh6136hjhLaZoOd9C37eHbjT9t4v3xzX65HZROqO~MGXNIyMYe~~eVA04qMecnhALcgvSKZ5xkcXHFLCTQo583sAJIEgP3BzLWsm0FWPVksm9V~RlbGTck-DNv1BlSRTftBts7VmlU7uWQMuDVLRjxUfOizAjeiDKntd3OmrTdhJ~Xg__&Key-Pair-Id=K231VYXPC1TA1R"             # replace with presigned url from email
 MODEL_SIZE="7B,13B,30B,65B"  # edit this list with the model sizes you wish to download
-TARGET_FOLDER=""             # where all files should end up
+TARGET_FOLDER="checkpoints"             # where all files should end up
 
 declare -A N_SHARD_DICT
 
